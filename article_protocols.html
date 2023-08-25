@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberSphere Stories | Internet Protocols</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="./assets/cybersphere_logo.png" type="image/x-icon">
+</head>
+<body>
+    <!-- header section -->
+    <header id="home">
+        <section class="header-icons-container">
+            <div class="icons">
+                <a target="_blank" href="https://www.instagram.com/fredy_0816/" title="Follow me on Instagram"><i class="bx bxl-instagram"></i></a>
+                <a target="_blank" href="https://github.com/Fredy034" title="Follow me on GitHub"><i class="bx bxl-github"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/fredy-hernando-quintero-salazar-135a401ab" title="Follow me on LinkedIn"><i class="bx bxl-linkedin"></i></a>
+            </div>
+        </section>
+        <nav>
+            <section class="nav-logo-container">
+                <a href="./index.html">
+                    <img src="./assets/cybersphere_logo_text.png" alt="Blog's Logo">
+                </a>
+            </section>
+            <section class="profile-link">
+                <a href="./index.html">Go back</a>
+            </section>
+        </nav>
+    </header>
+
+    <!-- article section -->
+    <section>
+        <figure class="container blogpost-img-container">
+            <img src="./assets/article_protocols.jpg" alt="Internet protocols image">
+        </figure>
+        <article class="blogpost-main-container">
+            <div class="grid-container-blog">
+                <h3>News</h3>
+                <article>
+                    <h2>Una Mirada Profunda a los Protocolos Fundamentales de Internet</h2>
+                    <div class="info">
+                        <p>Autor: <a href="#">Fredy Quintero</a></p>
+                        <p>Fecha de publicación: 24 de agosto de 2023</p>
+                        <p>Tiempo de lectura: 7 minutos</p>
+                    </div>
+                    <h4>Índice</h4>
+                    <ol class="indice">
+                        <li><a href="#http">Hypertext Transfer Protocol</a></li>
+                        <li><a href="#tcp">Transmission Control Protocol/Internet Protocol</a></li>
+                        <li><a href="#dns">Domain Name System</a></li>
+                        <li><a href="#cdn">Content Delivery Network</a></li>
+                        <li><a href="#www">World Wide Web</a></li>
+                        <li><a href="#ftp">File Transfer Protocol</a></li>
+                        <li><a href="#html">Hypertext Markup Language</a></li>
+                    </ol>
+                    <p>En la actual era digital, donde la interconexión global es una realidad innegable, es esencial comprender los protocolos subyacentes que hacen funcionar Internet. Estos protocolos son las reglas y estándares que permiten la comunicación y el intercambio de información entre dispositivos y sistemas en todo el mundo. En este artículo, comentaré algunos de los protocolos más fundamentales que han dado forma a la infraestructura de Internet tal como la conocemos hoy en día: HTTP, TCP/IP, DNS, CDN, WWW, FTP y HTML.</p>
+                    <h4 id="http">1. HTTP (Hypertext Transfer Protocol)</h4>
+                    <p>HTTP, el Protocolo de Transferencia de Hipertexto, es la base de la World Wide Web. Este protocolo permite que los navegadores web soliciten y obtengan recursos como páginas web, imágenes y videos desde los servidores web. Funciona siguiendo una estructura de solicitud-respuesta, donde el cliente (navegador) realiza una solicitud al servidor y el servidor responde con los recursos solicitados. La comunicación se realiza a través del puerto 80 en su forma no segura (HTTP) y del puerto 443 en su forma segura (HTTPS).</p>
+                    <h4 id="tcp">2. TCP/IP (Transmission Control Protocol/Internet Protocol)</h4>
+                    <p>TCP/IP, el conjunto de Protocolos de Control de Transmisión/Protocolos de Internet, es el pilar sobre el cual se construye Internet. Estos protocolos facilitan la comunicación y la transferencia de datos entre dispositivos en redes. El TCP se encarga de asegurarse de que los datos se entreguen correctamente y en el orden correcto, mientras que el IP maneja el direccionamiento y enrutamiento de los datos a través de la red.</p>
+                    <h4 id="dns">3. DNS (Domain Name System)</h4>
+                    <p>El Sistema de Nombres de Dominio es como la guía telefónica de Internet. Traduce las direcciones web legibles por humanos, como "www.ejemplo.com", en direcciones IP numéricas que las computadoras pueden entender. Esto facilita la navegación en la web al permitir a los usuarios acceder a sitios web utilizando nombres de dominio memorizables en lugar de direcciones IP complicadas.</p>
+                    <h4 id="cdn">4. CDN (Content Delivery Network)</h4>
+                    <p>Las Redes de Distribución de Contenido son sistemas distribuidos de servidores que trabajan juntos para entregar contenido web de manera eficiente. Al almacenar copias de recursos como imágenes, videos y archivos en múltiples ubicaciones geográficas, las CDNs reducen la carga en los servidores de origen y aceleran la carga de contenido para los usuarios, mejorando la experiencia de navegación.</p>
+                    <h4 id="www">5. WWW (World Wide Web)</h4>
+                    <p>La World Wide Web, o simplemente la Web, es una colección de páginas web interconectadas que se acceden a través de Internet. Fue inventada por Tim Berners-Lee en 1989 y ha revolucionado la forma en que accedemos y compartimos información. La Web se basa en tecnologías como HTTP para la transferencia de datos y HTML para la estructura y presentación de contenido.</p>
+                    <h4 id="ftp">6. FTP (File Transfer Protocol)</h4>
+                    <p>El Protocolo de Transferencia de Archivos permite la transferencia de archivos entre sistemas conectados a una red. Aunque ha perdido algo de relevancia con el advenimiento de métodos más seguros y eficientes de transferencia de archivos, el FTP sigue siendo utilizado en ciertos escenarios, como la actualización de sitios web y la transferencia de archivos grandes.</p>
+                    <h4 id="html">7. HTML (Hypertext Markup Language)</h4>
+                    <p>El Lenguaje de Marcado de Hipertexto es el lenguaje en el que se construyen la mayoría de las páginas web. Define la estructura y el contenido de una página, utilizando etiquetas que indican cómo se deben mostrar los elementos como texto, imágenes, enlaces y más. HTML trabaja en conjunto con otros protocolos y tecnologías para brindar una experiencia completa en la web.</p>
+                    <p>En conclusión, estos protocolos forman la base tecnológica de nuestra vida digital. Comprender su funcionamiento y su interacción nos brinda una perspectiva más profunda sobre cómo Internet ha evolucionado y cómo sigue transformando nuestro mundo. Desde la forma en que navegamos en la Web y accedemos a recursos hasta cómo se asegura la entrega de datos y se estructura el contenido, estos protocolos son el corazón latente de la era digital.</p>
+                    <h4>Más información</h4>
+                    <p style="margin-bottom: 1rem;">Si deseas ampliar más la información puedes dirigirte a los siguientes enlaces:</p>
+                    <ul>
+                        <li>Protocolos de red y sus características. <a target="_blank" href="https://openwebinars.net/blog/protocolo-de-red-que-es-tipos-y-caracteristicas/ ">openwebinars.net</a></li>
+                        <li>Protocolos de Internet. <a target="_blank" href="https://www.ibm.com/docs/es/aix/7.2?topic=protocols-internet-application-level ">ibm.com</a></li>
+                    </ul>
+                    <h4>Referencias:</h4>
+                    <ol>
+                        <li>Berners-Lee, T. (1989). Information Management: A Proposal. <a target="_blank" href="https://www.w3.org/History/1989/proposal.html">www.w3.org</a></li>
+                        <li>Mockapetris, P. (1987). RFC 1034: Domain Names - Concepts and Facilities. <a target="_blank" href="https://tools.ietf.org/html/rfc1034">tools.ietf.org</a></li>
+                        <li>Cerf, V. G., & Kahn, R. E. (1974). A protocol for packet network intercommunication. <a target="_blank" href="https://www.cs.princeton.edu/courses/archive/fall06/cos561/papers/cerf74.pdf">www.cs.princeton.edu</a></li>
+                        <li>Fielding, R. T., Gettys, J., Mogul, J. C., Frystyk, H., Masinter, L., Leach, P. J., & Berners-Lee, T. (1999). RFC 2616: Hypertext Transfer Protocol -- HTTP/1.1. <a target="_blank" href="https://tools.ietf.org/html/rfc2616">tools.ietf.org</a></li>
+                        <li>RFC 959: File Transfer Protocol. <a target="_blank" href="https://tools.ietf.org/html/rfc959">tools.ietf.org</a></li>
+                        <li>RFC 2822: Internet Message Format. <a target="_blank" href="https://tools.ietf.org/html/rfc2822">tools.ietf.org</a></li>
+                        <li>RFC 3986: Uniform Resource Identifier (URI): Generic Syntax. <a target="_blank" href="https://tools.ietf.org/html/rfc3986">tools.ietf.org</a></li>
+                        <li>RFC 2616: Hypertext Transfer Protocol -- HTTP/1.1. <a target="_blank" href="https://tools.ietf.org/html/rfc2616">tools.ietf.org</a></li>
+                    </ol>
+                </article>
+            </div>
+        </article>
+    </section>
+
+    <!-- footer section -->
+    <footer>
+        <p>• Copyright © 2023 by Fredy Quintero | All Rights Reserved •</p>
+        <div class="icon-top">
+            <a href="#home"><i class='bx bxs-chevrons-up'></i></a>
+        </div>
+    </footer>
+</body>
